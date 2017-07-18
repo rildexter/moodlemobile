@@ -76,7 +76,7 @@
     <gap:platform name="android" />
 
      <!--<gap:plugin name="org.apache.cordova.camera" /> -->
-	<plugin spec=“https://github.com/apache/cordova-plugin-contacts.git” source=“git” /> 
+	
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
