@@ -75,27 +75,30 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-     <!--<gap:plugin name="org.apache.cordova.camera" /> -->
+    
+	<plugin spec="https://github.com/apache/cordova-plugin-camera" source="git" /> 
+	<plugin spec="https://github.com/apache/cordova-plugin-media-capture" source="git" /> 
+    <plugin spec="https://github.com/apache/cordova-plugin-console" source="git" /> 
+    <plugin spec="https://github.com/apache/cordova-plugin-device" source="git" /> 
+    <plugin spec="https://github.com/apache/cordova-plugin-file" source="git" /> 
+	<plugin spec="https://github.com/apache/cordova-plugin-file-transfer" source="git" /> 
+    <plugin spec="https://github.com/apache/cordova-plugin-globalization" source="git" /> 
+	<plugin spec="https://github.com/andycorm/inappbrowser-back-button-fix" source="git" /> 
+	<plugin spec="https://github.com/apache/cordova-plugin-network-information" source="git" /> 
+	<plugin spec="https://github.com/apache/cordova-plugin-splashscreen" source="git" /> 
+	<plugin spec="https://github.com/apache/cordova-plugin-statusbar" source="git" /> 
+	<!--<plugin spec="https://github.com/phonegap-build/PushPlugin" source="git" /> -->
 	
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
-
-    <gap:plugin name="com.phonegap.plugins.pushplugin" />
-    <gap:plugin name="net.tunts.webintent" />
-    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+	<plugin spec="https://github.com/Tunts/WebIntent" source="git" /> 
+	 <plugin spec="https://github.com/EddyVerbruggen/Custom-URL-scheme" source="git" /> 
+	     
         <param name="URL_SCHEME" value="mootes14" />
-    </gap:plugin>
-    <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.5" />
-    <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" />
+    
+	<plugin spec="https://github.com/ionic-team/ionic-plugin-keyboard" source="git" /> 
+	<plugin spec="https://github.com/Tunts/WebIntent" source="git" /> 
+<plugin spec="https://github.com/katzer/cordova-plugin-local-notifications" source="git" /> 
+    <plugin spec="https://github.com/ti8m/DocumentHandler" source="git" /> 
+    
 
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="false" />
